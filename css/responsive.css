@@ -1,0 +1,307 @@
+@media all and (max-width: 1000px) {
+    header {
+        height: 1000px;
+    }
+
+    .container {
+        padding: 0px 60px;
+    }
+
+    ul li a {
+        padding: 5px 3px;
+    }
+
+    .login {
+        margin-left: 10px;
+    }
+
+    .about img {
+        width: 550px;
+        height: auto;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+
+    .heading h1 {
+        font-size: 50px;
+    }
+
+    .about h1 {
+        padding-top: 100px;
+    }
+
+    .about p {
+        font-size: 20px;
+
+    }
+
+    .search {
+        padding-top: 10px;
+    }
+
+    .search input {
+        height: 50px;
+        width: 55%;
+        font-size: 20px;
+    }
+
+    .search button {
+        height: 50px;
+        width: 20%;
+        font-size: 20px;
+    }
+
+    .popular-book img {
+        width: 250px;
+        height: auto;
+        flex-direction: column;
+        margin: 15px 150px;
+    }
+
+    .books {
+        height: 550px;
+    }
+
+    .feature {
+        height: 600px;
+    }
+
+    .feature img {
+        margin-bottom: 30px;
+        width: 80%;
+        height: auto;
+    }
+
+    .feature h2 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .feature p {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .feature .right img {
+        width: 80%;
+        height: auto;
+        float: left;
+    }
+
+    .feature .right h2, .feature .right p {
+        margin-bottom: 100px;
+
+    }
+
+    .kotak-about img {
+        margin-left: 100px;
+    }
+
+    .copyright a {
+        margin: 5px 40px;
+    }
+
+}
+
+@media all and (max-width: 670px) {
+    .container {
+        padding: 0px 15px;
+    }
+
+    nav {
+        height: 50px;
+        width: 100%;
+        background-color: #F0D9E7;
+        position: fixed;
+        top: 0;
+        z-index: 10;
+    }
+
+    .logo img {
+        width: 23px;
+    }
+
+    .logo h3 {
+        font-size: 16px;
+        margin-left: 4px;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+    
+    nav ul {
+        position: absolute;
+        right: 0;
+        top: 33px;
+        width: 50%;
+        height: 50%;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        background-color: #3b424e;
+        z-index: 1;
+        transform: translateX(100%);
+        transition: all 1s;
+        opacity: 0;
+        border: 2px solid;
+        border-color: #ddd;
+
+    }
+    
+    nav ul.slide {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .about img {
+        width: 100%;
+        margin-top: 80px;
+        margin-bottom: 40px;
+        margin-left: 0px;
+    }
+
+    .heading h1 {
+        font-size: 35px;
+    }
+
+    .about p {
+        font-size: 18px;
+    }
+
+    .search input {
+        width: 100%;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .search button {
+        width: 30%;
+        font-size: 18px;
+    }
+
+    .popular-book img {
+        width: 100px;
+        height: auto;
+        flex-direction: column;
+        margin: 10px 60px;
+    }
+
+    .type-icon img {
+        width: 30px;
+        height: 30px;
+        margin: 8px
+    }
+
+    .type-icon {
+        width: 47px;
+        height: 47px;
+    }
+
+    .books {
+        width: 100%;
+        height: 400px;
+    }
+
+    .type p {
+        font-size: 12px;
+    }
+
+    .feature {
+        width: 100%;
+        height: 400px;
+    }
+
+    .feature img {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .feature h2 {
+        font-size: 22px;
+    }
+
+    .feature p {
+        font-size: 13px;
+    }
+
+    .right {
+        float: left;
+    }
+
+    .feature .right img {
+        width: 100%;
+        height: auto;
+        float: left;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+
+    .box {
+        width: 300px;
+        height: 140px;
+    }
+
+    .sign-up .box h1 {
+        font-size: 20px;
+        padding-top: 22px;
+    }
+
+    .sign-up .box button {
+        margin-left: 105px;
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .kotak-about {
+        height: 190px;
+    }
+
+    .kotak-about img {
+        height: 80px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 35px;
+    }
+
+    .about-me h2 {
+        font-size: 18px;
+    }
+
+    .about-me p {
+        font-size: 10px;
+    }
+
+    .logo-footer img {
+        display: none;
+    }
+
+    .logo-footer h3 {
+        display: none;
+    }
+
+    .footer {
+        padding-top: 20px;      
+    }
+
+    .footer-right .flex-list {
+        margin-left: -40px;
+        line-height: 31px;
+    }
+
+    .footer-right li {
+        margin: 10px 5px;
+    }
+
+    .copyright a {
+        margin-right: 20px;
+    }
+}
